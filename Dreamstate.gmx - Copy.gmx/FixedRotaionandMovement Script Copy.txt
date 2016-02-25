@@ -1,0 +1,21 @@
+///Movement/Fixed Rotation
+
+phy_fixed_rotation = true
+
+if keyboard_check(vk_left) and (global.pause == 0)
+{ 
+phy_position_x = x - 3;
+}
+
+if keyboard_check(vk_right) and (global.pause == 0)
+{
+phy_position_x = x + 3;
+}
+
+if keyboard_check(vk_space) and (global.pause == 0)
+{
+phy_position_y = y - 4.5;
+global.canpause = 0;
+}
+
+instance_create(x, y, obj_fade_effect)
