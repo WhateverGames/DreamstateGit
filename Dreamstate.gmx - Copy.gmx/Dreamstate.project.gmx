@@ -22,6 +22,9 @@
   <scripts name="scripts">
     <script>scripts\scr_text.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
@@ -37,6 +40,7 @@
     <object>objects\obj_moving_damage</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\LVL_1_Intro</room>
     <room>rooms\LVL_1</room>
     <room>rooms\TRIAL_OVER</room>
   </rooms>
