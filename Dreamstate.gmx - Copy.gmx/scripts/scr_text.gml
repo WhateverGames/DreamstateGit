@@ -3,7 +3,7 @@
 txt = instance_create(argument2,argument3,obj_text);
 with (txt)
 {
-    padding = 16;
+    padding = 24;
     maxlength = view_wview[0];
     text = argument0;
     spd = argument1;
